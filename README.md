@@ -15,9 +15,9 @@ We've pre-trained  from scratch and evaluate on the `MSCOCO2017 val`.
 
 | model | Params| FLOPs | ${AP}^{val}$ | ${AP}_{{50}}^{val}$ | ${AP}_{{75}}^{val}$ | ${AP}_{{S}}^{val}$ | ${AP}_{{M}}^{val}$ | ${AP}_{{L}}^{val}$ |
 | :------------------------------------------------------------------------------------------------------------------- | :------------------- | :----------------- | :--------------: | :------------: | :------------: | :------------: | :-------------: | :------------: |
-| [Mamba YOLO-T](./ultralytics/cfg/models/mamba-yolo/Mamba-YOLO-T.yaml) | 5.8M | 13.2G |       44.5       |          61.2           |          48.2           |          24.7          |          48.8          |          62.0          |
-| [Mamba YOLO-M](./ultralytics/cfg/models/mamba-yolo/Mamba-YOLO-B.yaml) | 19.1M | 45.4G  |       49.1       |          66.5           |          53.5           |          30.6          |          54.0          |          66.4          |
-| [Mamba YOLO-L](./ultralytics/cfg/models/mamba-yolo/Mamba-YOLO-L.yaml)  | 57.6M | 156.2G |       52.1       |          69.8           |          56.5           |          34.1          |          57.3          |          68.1          |
+| [Mamba YOLO-T](./ultralytics/cfg/models/NLG/NLG-T.yaml) | 5.8M | 13.2G |       44.5       |          61.2           |          48.2           |          24.7          |          48.8          |          62.0          |
+| [Mamba YOLO-M](./ultralytics/cfg/models/NLG/NLG-B.yaml) | 19.1M | 45.4G  |       49.1       |          66.5           |          53.5           |          30.6          |          54.0          |          66.4          |
+| [Mamba YOLO-L](./ultralytics/cfg/models/NLG/NLG-L.yaml)  | 57.6M | 156.2G |       52.1       |          69.8           |          56.5           |          34.1          |          57.3          |          68.1          |
 
 
 
@@ -31,7 +31,7 @@ Mamba YOLO is developed based on `torch==2.3.0` `pytorch-cuda==12.1` and `CUDA V
 #### 2.Clone Project 
 
 ```bash
-git clone https://github.com/HZAI-ZJNU/Mamba-YOLO.git
+git clone https://github.com/HZAI-ZJNU/NLG.git
 ```
 
 #### 3.Create and activate a conda environment.
@@ -68,10 +68,10 @@ Make sure your dataset structure as follows:
 │   │   ├── val2017
 ```
 
-#### 7. Training Mamba-YOLO-T
+#### 7. Training NLG-T
 ```bash
 python mbyolo_train.py --task train --data ultralytics/cfg/datasets/coco.yaml \
- --config ultralytics/cfg/models/mamba-yolo/Mamba-YOLO-T.yaml \
+ --config ultralytics/cfg/models/NLG/NLG-T.yaml \
 --amp  --project ./output_dir/mscoco --name mambayolo_n
 ```
 
@@ -80,7 +80,7 @@ python mbyolo_train.py --task train --data ultralytics/cfg/datasets/coco.yaml \
 This repo is modified from open source real-time object detection codebase [Ultralytics](https://github.com/ultralytics/ultralytics). The selective-scan from [VMamba](https://github.com/MzeroMiko/VMamba).
 
 ## Citations
-If you find [Mamba-YOLO](https://github.com/HZAI-ZJNU/Mamba-YOLO) is useful in your research or applications, please consider giving us a star 🌟 and citing it.
+If you find [NLG](https://github.com/HZAI-ZJNU/NLG) is useful in your research or applications, please consider giving us a star 🌟 and citing it.
 
 ```bibtex
 @misc{wang2024mambayolossmsbasedyolo,
