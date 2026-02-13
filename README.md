@@ -1,7 +1,4 @@
-# [AAAI2025] Mamba YOLO: A Simple Baseline for Object Detection with State Space Model
-
-![Python 3.11](https://img.shields.io/badge/python-3.11-g) ![pytorch 2.3.0](https://img.shields.io/badge/pytorch-2.3.0-blue.svg) [![docs](https://img.shields.io/badge/docs-latest-blue)](README.md)
-
+# [AAAI2025] Noisy Localization Annotation Refinement for Object Detection
 
 <div align="center">
   <img src="./asserts/mambayolo.jpg" width="1200px"/>
@@ -9,10 +6,11 @@
 
 ## Model Zoo
 
-We've pre-trained YOLO-World-T/M/L from scratch and evaluate on the `MSCOCO2017 val`. 
+We've pre-trained  from scratch and evaluate on the `MSCOCO2017 val`. 
 
 ### Inference on MSCOCO2017 dataset
 
+<img width="928" height="385" alt="image" src="https://github.com/user-attachments/assets/2890c503-ae1c-407d-9fd7-18da41463ef9" />
 
 | model | Params| FLOPs | ${AP}^{val}$ | ${AP}_{{50}}^{val}$ | ${AP}_{{75}}^{val}$ | ${AP}_{{S}}^{val}$ | ${AP}_{{M}}^{val}$ | ${AP}_{{L}}^{val}$ |
 | :------------------------------------------------------------------------------------------------------------------- | :------------------- | :----------------- | :--------------: | :------------: | :------------: | :------------: | :-------------: | :------------: |
