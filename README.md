@@ -11,7 +11,8 @@ We've pre-trained  from scratch and evaluate on the `MSCOCO2017 val`.
 
 
 <img width="928" height="385" alt="image" src="https://github.com/user-attachments/assets/2890c503-ae1c-407d-9fd7-18da41463ef9" />
-<img width="214" height="243" alt="image" src="https://github.com/user-attachments/assets/ce794488-a9d5-4ee2-9538-16f0a1a6e2bf" />
+<img width="310" height="261" alt="image" src="https://github.com/user-attachments/assets/7c26dc91-93f7-4afe-a9fc-aead72c42110" />
+
 
 
 
