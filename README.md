@@ -7,8 +7,11 @@
 We've pre-trained  from scratch and evaluate on the `MSCOCO2017 val`. 
 
 ### Inference on MSCOCO2017 dataset
+<img width="326" height="165" alt="image" src="https://github.com/user-attachments/assets/ab31fd4c-70e9-4007-bfd8-419a9a8b1569" />
+
 
 <img width="928" height="385" alt="image" src="https://github.com/user-attachments/assets/2890c503-ae1c-407d-9fd7-18da41463ef9" />
+<img width="214" height="243" alt="image" src="https://github.com/user-attachments/assets/ce794488-a9d5-4ee2-9538-16f0a1a6e2bf" />
 
 | model | Params| FLOPs | ${AP}^{val}$ | ${AP}_{{50}}^{val}$ | ${AP}_{{75}}^{val}$ | ${AP}_{{S}}^{val}$ | ${AP}_{{M}}^{val}$ | ${AP}_{{L}}^{val}$ |
 | :------------------------------------------------------------------------------------------------------------------- | :------------------- | :----------------- | :--------------: | :------------: | :------------: | :------------: | :-------------: | :------------: |
