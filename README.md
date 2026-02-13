@@ -21,13 +21,9 @@ We've pre-trained  from scratch and evaluate on the `MSCOCO2017 val`.
 
 ### 1. Installation
 
-Mamba YOLO is developed based on `torch==2.3.0` `pytorch-cuda==12.1` and `CUDA Version==12.6`. 
+Noisy Annotation Refinement for
+Object Detection is developed based on `torch==2.3.0` `pytorch-cuda==12.1` and `CUDA Version==12.6`. 
 
-#### 2.Clone Project 
-
-```bash
-git clone https://github.com/HZAI-ZJNU/NLG.git
-```
 
 #### 3.Create and activate a conda environment.
 ```bash
